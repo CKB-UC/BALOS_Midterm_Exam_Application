@@ -17,7 +17,11 @@
         <tbody>
             @foreach ($products as $product)
                 <tr>
-                    <td>{{ $product['name'] }}</td>
+                    <td>{{ $product['name1'] }}</td>
+                    <td>{{ $product['name2'] }}</td>
+                    <td>{{ $product['name3'] }}</td>
+                    <td>{{ $product['name4'] }}</td>
+                    <td>{{ $product['name5'] }}</td>
                 </tr>    
             @endforeach
         </tbody>
